@@ -8,8 +8,7 @@ import Hero from './Hero'
 const Home = () => {
   return (
     // outermost container
-    <main className='bg-slate-500'>
-    
+    <main >
       <Carousel />
       <Hero />
     </main>

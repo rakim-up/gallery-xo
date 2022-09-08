@@ -4,9 +4,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const Hero= () => {
-  return{
-yessir
-  }
+  return(
+    <h3>HERO BANNER GOES HERE</h3>
+  )
 }
 
 export default Hero

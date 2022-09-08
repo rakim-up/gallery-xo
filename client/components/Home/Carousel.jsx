@@ -4,9 +4,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const Carousel = () => {
-  return{
-YOOOOO
+  return(
+<h2>CAROUSEL GOES HERE</h2>
+  )
   }
-}
 
 export default Carousel

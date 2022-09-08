@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 import Home from './components/Home/Home'
 import Nav from './components/Nav/Nav'
@@ -11,13 +11,14 @@ const App = () => {
   return (
     <>
       {/* outer most container */}
-        <Router>
-          <Nav />
+      <div>
+        <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
-          <Footer />
-        </Router>
+        <Footer />
+      </div>
+      
     </>
   )
 }

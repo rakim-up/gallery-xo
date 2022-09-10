@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Nav = () => {
   
 return (
-  <h1 className="text-2xl">helloooooo</h1>
+  <h1 className="text-2xl"> NAV BAR HERE  </h1>
 )
 }
 

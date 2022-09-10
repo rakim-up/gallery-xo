@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
   return(
-    <p>Footer</p>
+    <p>FOOTER GOING HERE</p>
   )
 
 }

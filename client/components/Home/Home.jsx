@@ -9,8 +9,10 @@ const Home = () => {
   return (
     // outermost container
     <main >
-      <Carousel />
+
       <Hero />
+      <Carousel />
+     
     </main>
   )
 }

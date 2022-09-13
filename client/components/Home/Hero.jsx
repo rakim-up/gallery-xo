@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Hero= () => {
   return(
-    <section className="w-full h-[110vh] flex flex-col sm:flex-row sm:w-11/12  s:pt-6 sm:justify-center">
+    <section className="w-full h-[90vh] flex flex-col sm:flex-row sm:w-11/12  s:pt-6 sm:justify-center">
       <div className=" w-2/3 mr-5 sm:w-6/12 self-center text-center sm:text-left mt-10">
         {/*text side */}
         {/* <TypeAnimation
@@ -16,7 +16,7 @@ const Hero= () => {
         {/* /> */}
         <p className="text-5xl w-full font-extrabold sm:text-6xl text-center ">Gallery</p>
         <p className="mt-2 mb:4 sm:my-5 text-center">
-          Welcome to the online showcase Pusi Urale's creations. 
+          Welcome to the online showcase of Pusi Urale's creations over the years. 
         </p>
       </div>
       {/* text container of hero div ends */}
